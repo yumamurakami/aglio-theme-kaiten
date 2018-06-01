@@ -386,7 +386,7 @@ nav {
 }
 
 .collapse-content {
-    max-height: 0;
+    //max-height: 0;
     overflow: hidden;
     transition: max-height 0.3s ease-in-out;
 }
@@ -807,6 +807,9 @@ nav .resource-group{
             background: @head-background-color;
             border-bottom-color: @head-border-color;
         }
+        .title {
+            background: @head-background-color;
+        }
     }
 
     &.options {
@@ -816,6 +819,9 @@ nav .resource-group{
             color: @options-color;
             background: @options-background-color;
             border-bottom-color: @options-border-color;
+        }
+        .title {
+            background: @options-background-color;
         }
     }
 
@@ -827,6 +833,9 @@ nav .resource-group{
             background: @post-background-color;
             border-bottom-color: @post-border-color;
         }
+        .title {
+            background: @post-background-color;
+        }
     }
 
     &.put {
@@ -836,6 +845,9 @@ nav .resource-group{
             color: @put-color;
             background: @put-background-color;
             border-bottom-color: @put-border-color;
+        }
+        .title {
+            background: @put-background-color;
         }
     }
 
@@ -847,6 +859,9 @@ nav .resource-group{
             background: @patch-background-color;
             border-bottom-color: @patch-border-color;
         }
+        .title {
+            background: @patch-background-color;
+        }
     }
 
     &.delete {
@@ -856,6 +871,9 @@ nav .resource-group{
             color: @delete-color;
             background: @delete-background-color;
             border-bottom-color: @delete-border-color;
+        }
+        .title {
+            background: @delete-background-color;
         }
     }
 }
